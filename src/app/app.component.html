@@ -1,0 +1,11 @@
+<div class="header">
+  <img src="../assets/logo.png" alt="" width="150" height="40">
+  <ul #domUl>
+    <li *ngFor="let item of menuList">
+      <a [routerLink]="item.path">{{item.label}}</a>
+    </li>
+  </ul>
+  <div #domDiv class="settings"></div>
+</div>
+
+<router-outlet></router-outlet>
