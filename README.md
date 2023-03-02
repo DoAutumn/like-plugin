@@ -10,6 +10,6 @@
 
 ## 构建
 
-构建基础版产品：`npm run build:basic`
+构建基础版示例：`npm run build:basic`
 
-构建扩展版产品：`npm run build`
+构建扩展版示例：`npm run build`
